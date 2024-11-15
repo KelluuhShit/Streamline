@@ -1,0 +1,31 @@
+    .appBar {
+        background-color: transparent;
+        box-shadow: none;
+    }
+    
+    .toolbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+    }
+    
+    .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #1E88E5;
+    }
+    
+    .navLinks {
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .navLinks button {
+        text-transform: none; /* Optional: To make button text more readable */
+    }
+    
+    .navLinks button:last-child {
+        border-radius: 20px; /* Add a rounded button for 'Start Now' */
+    }
+    
